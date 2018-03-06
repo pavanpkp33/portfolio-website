@@ -1,0 +1,129 @@
+
+
+html {
+    margin: 0;
+    padding: 0;
+    font-family: "San Francisco", "Helvetica Neue", sans-serif;
+    font-size: 15px;
+
+}
+
+.home-main{
+    top: 25%;
+    position: relative;
+    width: 100%;
+}
+
+.display-pic{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 250px;
+    box-shadow: 0 5px 10px #0A4DD9;
+}
+.greet-msg{
+    display: block;
+    margin: 30px auto auto auto;
+    opacity: 0.6;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.info-text {
+    display: block;
+    margin: 10px auto auto auto;
+    padding: 0 20px;
+    max-width: 460px;
+    color: white;
+    font-size: 22px;
+    text-align: center; }
+
+
+.container-info {
+    display: inline-block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #1560FB;
+    overflow-y: scroll;
+}
+
+@media (min-width: 420px) {
+    .info-text {
+        font-size: 28px; }
+
+}
+@media (min-width: 1024px) {
+    .info-text {
+        max-width: 550px;
+        padding: 0 40px;
+        font-size: 40px; } }
+
+@media only screen and (min-device-width: 360px)
+and (-webkit-min-device-pixel-ratio: 2){
+    .home-main{
+        top: 5%;
+        margin-bottom: 20%;
+
+    }
+    .footer{
+        position: relative;
+        margin-top: 2%;
+        bottom: 0px;
+    }
+}
+
+@media only screen and (max-device-height: 812812px)
+and (-webkit-min-device-pixel-ratio: 2){
+    /*.home-main{*/
+        /*top: 5%;*/
+        /*margin-bottom: 20%;*/
+
+    /*}*/
+    .footer{
+
+        position: relative;
+        margin-top: 2%;
+        bottom: 0px;
+    }
+}
+
+.visit-profile-btn{
+    display: block;
+    position: relative;
+    width: 200px;
+    margin: 30px auto auto auto;
+    padding: 11px 24px;
+    color: white;
+    background: #1560FB;
+    border-color: white;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 2px;
+    font-weight: 700;
+    line-height: 22px;
+    text-decoration: none;
+}
+.visit-profile-btn:hover{
+    color: #1560FB;
+    background-color: white;
+    cursor: pointer;
+}
+
+.footer{
+    animation-delay: 1.2s;
+    position: absolute;
+    text-align: center;
+    color: white;
+    width: 100%;
+    font-weight: 700;
+    height: 1%;
+    bottom: 2%;
+}
+
