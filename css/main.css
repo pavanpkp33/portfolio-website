@@ -46,16 +46,69 @@ html {
     text-align: center; }
 
 
+.home-text{
+    display: inline-block;
+    margin: 30px auto auto auto;
+    opacity: 0.6;
+    color: #000000;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
 .container-info {
     display: inline-block;
     position: fixed;
     left: 0;
     top: 0;
     height: 100%;
-    width: 100%;
+    width: 40%;
     background-color: #1560FB;
     overflow-y: scroll;
 }
+
+.container-skills{
+    display: inline-block;
+    position: relative;
+    top: 0;
+    float: right;
+    overflow-y: scroll;
+    width: 60%;
+    height: 100%;
+}
+
+.home-skills{
+    padding: 2%;
+    position: relative;
+    width: 100%;
+}
+
+.home-body{
+    width: 100%;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 20%;
+
+}
+
+.skills{
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 10%;
+}
+
+.home-header {
+    display: block;
+    margin: 10px auto auto auto;
+    padding: 0 20px;
+    max-width: 460px;
+    color: #000;
+    font-size: 20px;
+    text-align: center; }
 
 @media (min-width: 420px) {
     .info-text {

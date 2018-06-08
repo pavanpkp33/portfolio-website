@@ -108,6 +108,20 @@ html{
 
 }
 
+.badge-header{
+
+    width: 100px;
+    font-size: 13px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 3px;
+    text-transform: capitalize;
+    margin-right: 10px;
+    /*float: left;*/
+    border: 2px solid #FF8F00;
+    color: #FF8F00;
+
+}
 
 hr{
     background-color: #1560FB;
@@ -150,3 +164,8 @@ and (orientation: landscape) {
         margin-left: 17%;
     }
 }
+
+.badge-danger{
+    background-color: mediumpurple;
+}
+
